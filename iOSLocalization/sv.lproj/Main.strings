@@ -1,0 +1,14 @@
+
+/* Class = "UIButton"; normalTitle = "Press"; ObjectID = "1LZ-MX-lCa"; */
+"1LZ-MX-lCa.normalTitle" = "Tryck";
+
+/* Class = "UIButton"; normalTitle = "Do not touch"; ObjectID = "NTg-nO-2hb"; */
+"NTg-nO-2hb.normalTitle" = "Rör ej";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "OmQ-fp-rq5"; */
+"OmQ-fp-rq5.text" = "Svenska";
+
+/* Class = "UILabel"; text = "Hello"; ObjectID = "Pu7-xs-tY1"; */
+"Pu7-xs-tY1.text" = "Hej";
+
+"p1I-2s-uX0.text" = "Hej igen";
