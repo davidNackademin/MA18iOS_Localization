@@ -14,6 +14,7 @@
 		6301F04221FB008B00F88E0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6301F04021FB008B00F88E0F /* LaunchScreen.storyboard */; };
 		6301F04D21FB008B00F88E0F /* iOSLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301F04C21FB008B00F88E0F /* iOSLocalizationTests.swift */; };
 		6301F05821FB008B00F88E0F /* iOSLocalizationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6301F05721FB008B00F88E0F /* iOSLocalizationUITests.swift */; };
+		6301F06921FB115E00F88E0F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6301F06B21FB115E00F88E0F /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		6301F05921FB008B00F88E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6301F06521FB049500F88E0F /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
 		6301F06621FB049500F88E0F /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6301F06C21FB117600F88E0F /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6301F06E21FB127700F88E0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 			children = (
 				6301F03721FB008A00F88E0F /* AppDelegate.swift */,
 				6301F03921FB008A00F88E0F /* ViewController.swift */,
+				6301F06B21FB115E00F88E0F /* Localizable.strings */,
 				6301F03B21FB008A00F88E0F /* Main.storyboard */,
 				6301F03E21FB008B00F88E0F /* Assets.xcassets */,
 				6301F04021FB008B00F88E0F /* LaunchScreen.storyboard */,
@@ -213,6 +217,7 @@
 			knownRegions = (
 				en,
 				Base,
+				sv,
 			);
 			mainGroup = 6301F02B21FB008A00F88E0F;
 			productRefGroup = 6301F03521FB008A00F88E0F /* Products */;
@@ -232,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6301F04221FB008B00F88E0F /* LaunchScreen.storyboard in Resources */,
+				6301F06921FB115E00F88E0F /* Localizable.strings in Resources */,
 				6301F03F21FB008B00F88E0F /* Assets.xcassets in Resources */,
 				6301F03D21FB008A00F88E0F /* Main.storyboard in Resources */,
 			);
@@ -311,6 +317,15 @@
 				6301F06621FB049500F88E0F /* sv */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6301F06B21FB115E00F88E0F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6301F06C21FB117600F88E0F /* sv */,
+				6301F06E21FB127700F88E0F /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

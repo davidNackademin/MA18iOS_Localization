@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  iOSLocalization
+
+  Created by David Svensson on 2019-01-25.
+  Copyright © 2019 David Svensson. All rights reserved.
+*/
+
+"button_pressed" = "knappen är tryckt";
+"good_bye" = "Good bye!";
+
+
