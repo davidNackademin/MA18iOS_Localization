@@ -52,6 +52,8 @@
 		6301F06621FB049500F88E0F /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		6301F06C21FB117600F88E0F /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6301F06E21FB127700F88E0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6301F07321FB1CA000F88E0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Base; path = Base.lproj/dog.jpg; sourceTree = "<group>"; };
+		6301F07521FB1CB400F88E0F /* sv */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sv; path = sv.lproj/dog.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		6301F03621FB008A00F88E0F /* iOSLocalization */ = {
 			isa = PBXGroup;
 			children = (
+				6301F07121FB1C1100F88E0F /* images */,
 				6301F03721FB008A00F88E0F /* AppDelegate.swift */,
 				6301F03921FB008A00F88E0F /* ViewController.swift */,
 				6301F06B21FB115E00F88E0F /* Localizable.strings */,
@@ -129,6 +132,14 @@
 				6301F05921FB008B00F88E0F /* Info.plist */,
 			);
 			path = iOSLocalizationUITests;
+			sourceTree = "<group>";
+		};
+		6301F07121FB1C1100F88E0F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6301F07421FB1CA000F88E0F /* dog.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +337,15 @@
 				6301F06E21FB127700F88E0F /* en */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		6301F07421FB1CA000F88E0F /* dog.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6301F07321FB1CA000F88E0F /* Base */,
+				6301F07521FB1CB400F88E0F /* sv */,
+			);
+			name = dog.jpg;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
